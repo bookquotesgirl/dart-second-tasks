@@ -1,3 +1,10 @@
+//  Exercise 3 — Interface Using implements
+// Create an interface-like class:
+// Then create two classes that implement it:
+// CreditCard
+// Paypal
+
+ 
  abstract class PaymentMethod{
   void pay(double amount){
     print('PAID $amount');

@@ -1,3 +1,15 @@
+// Practice try/catch, on, throw, and finally.
+// Instructions:
+// Create a custom exception: InvalidAmountException.
+// Write a function transferMoney(double amount) that:
+// Throws InvalidAmountException if amount <= 0
+// Throws FormatException if amount > 5000
+// Otherwise, prints "Transfer successful"
+// In main():
+// Call transferMoney() inside a try block
+// Handle exceptions with on
+//  InvalidAmountException and on FormatException
+// Use finally to print "Transaction check completed"
 
 void transferMoney(double amount){
 if(amount<=0) throw InvalidAmountException('Amount below zero not allowed');

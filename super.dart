@@ -1,3 +1,12 @@
+// Exercise 2 — Using super
+// Create a Person class with:
+// name
+// age
+// a method introduce()
+// Create a child class Student that:
+// calls the parent constructor using super
+// overrides introduce()
+
 class Person{
   String? name;
   int ? age;

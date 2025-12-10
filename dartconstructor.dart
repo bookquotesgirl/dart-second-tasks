@@ -7,20 +7,20 @@
 // age = 0
 
 
+// ignore_for_file: unused_local_variable
+
 class Student{
   String? name;
   int? age;
-  Student(name,age){
-    name=this.name;
-    age=this.age;
-  }
+  Student(this.name,this.age);
   Student.guest(){
     name="Guest";
     age=0;
   }
 }
 void main(){
-  var astuStudent=Student("Hiwot",21);
+  var aastuStudent=Student("Hiwot",21);
   var aauStudent=Student.guest();
+
 
 }

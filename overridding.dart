@@ -1,3 +1,12 @@
+// Exercise 1 — Method Overriding (Runtime Polymorphism)
+// Create three classes:
+// Device → has a method turnOn().
+// Phone → extends Device.
+// Laptop → extends Device.
+// Task:
+// Override turnOn() differently in Phone and Laptop.
+
+
 class device{
 void turnOn(){
   print('The device is turned on');
