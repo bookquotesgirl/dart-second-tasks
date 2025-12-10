@@ -1,8 +1,18 @@
+// Exercise 1 (Parameterized + Named Constructor)
+// Create a Student class with:
+// Fields: name, age
+// A parameterized constructor
+// A named constructor Student.guest() that sets:
+// name = "Guest"
+// age = 0
+
+
 class Student{
   String? name;
   int? age;
-  Student(this.name,this.age){
-    
+  Student(name,age){
+    name=this.name;
+    age=this.age;
   }
   Student.guest(){
     name="Guest";
@@ -10,7 +20,6 @@ class Student{
   }
 }
 void main(){
-  var aastuStudent=Student();
   var astuStudent=Student("Hiwot",21);
   var aauStudent=Student.guest();
 

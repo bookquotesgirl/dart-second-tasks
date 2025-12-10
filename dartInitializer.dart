@@ -1,3 +1,9 @@
+// Exercise 2 (Initializer List + final field)
+// Create a Product class with:
+// final String id
+// String name
+// double price
+// Use an initializer list to set id to "P-001"
 class Product{
   final String id;
   String? name;

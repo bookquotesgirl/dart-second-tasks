@@ -6,12 +6,16 @@ if(amount>=5000) throw FormatException('Amount too high');
 print('$amount transfered successfully');
 }
 class InvalidAmountException implements Exception{
-String ? message;
+String  message;
 InvalidAmountException(this.message);
+@override
+String toString()=>message; 
 }
 class FormatException implements Exception{
-  String ? message;
+  String  message;
 FormatException(this.message);
+@override
+String toString()=>message; 
 }
 void main(){
   try{
